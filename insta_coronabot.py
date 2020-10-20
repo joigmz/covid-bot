@@ -78,9 +78,9 @@ def web_bot():
     driver.get(web_url)
     time.sleep(4)
     
-    driver.find_element_by_name("username").send_keys("covid19_bot")
+    #driver.find_element_by_name("username").send_keys("covid19_bot")
     time.sleep(2)
-    driver.find_element_by_name("password").send_keys("Lagloriosa19")
+    #driver.find_element_by_name("password").send_keys("")
     time.sleep(2)
     
     driver.find_element_by_xpath('//*[@id="react-root"]/section/main/article/div[2]/div[1]/div/form/div[4]/button/div').click()
